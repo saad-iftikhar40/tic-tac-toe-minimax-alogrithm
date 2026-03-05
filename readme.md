@@ -4,14 +4,13 @@ A classic Tic-Tac-Toe game with a perfect-playing AI opponent built using the **
 
 Made with **Python** + **Pygame** for a nice graphical interface.
 
-https://github.com/yourusername/tictactoe/assets/123456789/abcdef12-3456-7890-abcd-ef1234567890  
-*(replace with your own screenshot/GIF later if you record one)*
+
 
 ## Features
 
-- Beautiful retro-style graphical interface using Pygame
+- Retro-style graphical interface using Pygame
 - Play as **X** (first) or **O** (second)
-- Unbeatable AI using the Minimax algorithm (with alpha-beta pruning possible in future versions)
+- Unbeatable AI using the Minimax algorithm (with alpha-beta pruning)
 - Clean win/tie detection
 - "Play Again" button after game ends
 - Smooth gameplay with short thinking delay for realism
@@ -32,23 +31,6 @@ https://github.com/yourusername/tictactoe/assets/123456789/abcdef12-3456-7890-ab
 - Python 3.6+
 - Pygame (`pip install pygame`)
 
-## Installation & Running
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/tictactoe.git
-cd tictactoe
-
-# 2. (Recommended) Create virtual environment
-python -m venv venv
-source venv/bin/activate    # Linux / macOS
-venv\Scripts\activate       # Windows
-
-# 3. Install dependencies
-pip install pygame
-
-# 4. Make sure you have the font file
-#    → OpenSans-Regular.ttf should be in the same folder as runner.py
 #    (or change the fontpath in runner.py if you prefer another font)
 
 # 5. Run the game
